@@ -27,6 +27,9 @@ public class ValidateInvalidCredentialsTest {
 		if(browser.equals("Chrome")) {
 			driver = new ChromeDriver();
 		}
+		
+		//Code modified after defect Fix. Push the code to GIT
+		
 		else if(browser.equals("IE")) {
 			System.setProperty("wedriver.ie.driver", "IEDriverServer.exe");
 			driver = new InternetExplorerDriver();
